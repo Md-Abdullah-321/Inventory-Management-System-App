@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 import 'screens/auth_wrapper.dart';
@@ -20,9 +19,7 @@ class MyApp extends StatelessWidget {
         title: 'Inventory Management System',
         theme: ThemeData(
           // Apply Poppins font globally
-          textTheme: GoogleFonts.poppinsTextTheme(
-            Theme.of(context).textTheme,
-          ),
+          fontFamily: 'Poppins',
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
